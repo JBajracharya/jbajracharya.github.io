@@ -1,3 +1,11 @@
+## Having a Growth Mindset
+
+```markdown
+A growth mindset is having a mind set of continuously growing, improving and developing despite any adversaries that come along the way.
+Having a growth mindset, one stays focused on their objective and not distracted by any challenges and obstacles that come through their
+way. They accept the challenges and obstacles and work their way through perseverance and patience.
+```
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/JBajracharya/jbajracharya.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
