@@ -6,7 +6,7 @@
 
 ### Having a Growth Mindset
 
-*A growth mindset is having a mindset of continuous growing, improving and developing despite any
+*A growth mindset is having a mindset of continuous learning, improving and developing despite any
 adversaries that come along the way. Having a growth mindset, one stays focused on their objective 
 and not distracted by any challenges and obstacles that come through their way. They accept the 
 challenges and obstacles and work their way through perseverance and patience.*
