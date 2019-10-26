@@ -1,67 +1,48 @@
-
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="{{ site.lang | default: "en-US" }}">
   <head>
+
+    {% if site.google_analytics %}
+      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '{{ site.google_analytics }}');
+      </script>
+    {% endif %}
     <meta charset="UTF-8">
 
-<!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>Brief Introduction: | jbajracharya.github.io</title>
-<meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="Brief Introduction:" />
-<meta property="og:locale" content="en_US" />
-<link rel="canonical" href="https://jbajracharya.github.io/learning-journal/" />
-<meta property="og:url" content="https://jbajracharya.github.io/learning-journal/" />
-<meta property="og:site_name" content="jbajracharya.github.io" />
-<script type="application/ld+json">
-{"@type":"WebPage","url":"https://jbajracharya.github.io/learning-journal/","headline":"Brief Introduction:","@context":"http://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
-
+{% seo %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
-    <link rel="stylesheet" href="/assets/css/style.css?v=fc6eb2a02259296790e307917add6da10be7f7f1">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   </head>
   <body>
-    <section class="page-header">
-      <h1 class="project-name">Welcome to my page</h1>
-      <h2 class="project-tagline"></h2>
-      
-      
-    </section>
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
 
-    <section class="main-content">
-      <h2 id="brief-introduction">Brief Introduction:</h2>
+    <header class="page-header" role="banner">
+      <h1 class="project-name"></h1>
+      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+      {% if site.github.is_project_page %}
+        <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
+      {% endif %}
+      {% if site.show_downloads %}
+        <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
+        <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
+      {% endif %}
+    </header>
 
-<p><em>Hello, my name is Jitendra Bajracharya. I’m a military veteran, served 6 and a half years in active duty army as logistics specialist and language interpreter translating in two different languages Nepalese and Hindi. Having a great interest in programming, I started taking programming classes while I was in service. I went to Microsoft Software and System Academy bootcamp and graduated in Cloud Application Development as part of my transitioning. Currently I have been learning full stack web development on my own through Udemy online courses and various other online resources. I greatly enjoy coding. I’m very excited to start the career in this field and looking forward to a great training at code fellows.</em></p>
-
-<p><strong><em>link to my github portfolio:</em></strong> <a href="https://github.com/JBajracharya/"><strong>jitendra github</strong></a></p>
-
-<h3 id="having-a-growth-mindset">Having a Growth Mindset</h3>
-
-<p><em>A growth mindset is having a mindset of continuous growing, improving and developing despite any
-adversaries that come along the way. Having a growth mindset, one stays focused on their objective 
-and not distracted by any challenges and obstacles that come through their way. They accept the 
-challenges and obstacles and work their way through perseverance and patience.</em></p>
-
-<h3 id="my-three-mantras-to-stay-on-growth-mindset">My three mantras to stay on growth mindset</h3>
-
-<ul>
-  <li><em>When faced by obstacle, do not get frustrated and avoid the task. Take a step back, analyse 
-the situation carefully step by step and stay focused. Always remember that you learn from dealing
-with obstacles and it contributes to improving your abilities in the future.</em></li>
-  <li><em>Assess your day on how it went. Think about what went right and what went wrong and what could
-you have done to improve the things that went wrong.</em></li>
-  <li><em><code class="language-plaintext highlighter-rouge">"No pain, no gain"</code>, remember this motivational phrase. To achieve the goal, you have to keep 
-working on it even when it is exteremely difficult and challenging.</em></li>
-</ul>
-
-
+    <main id="content" class="main-content" role="main">
+      {{ content }}
 
       <footer class="site-footer">
-        
+        {% if site.github.is_project_page %}
+          <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
+        {% endif %}
         <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
       </footer>
-    </section>
-
-    
+    </main>
   </body>
 </html>
