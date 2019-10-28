@@ -6,28 +6,23 @@ can do with Markdown. To use it on the file it needs to have extension .md or .m
 
 ## Examples:
 
-*Two stars **text** at the beginning and at the end to make bold text.
-
+*Two stars `**text**` at the beginning and at the end to make the text bold.*
 `**This is a bold text.**`
-
 **This is a bold text.**
 
-*Hastags # at the beginning of the text to create headings. Add more than one hastags to increase the size of heading*
+*Hastags **#** at the beginning of the text to create headings. Add more than one hastags to increase the size of heading*
 
-`# The largest heading
+ ```
+ # The largest heading
  ## The second largest heading
- ###### The smallest heading`
- 
+ ###### The smallest heading
+ ```
  # The largest heading
  ## The second largest heading
  ###### The smallest heading
  
- _To add image, the syntax is **![](image file name with extension or web link to the image).**_ 
-
+ _To add image, the syntax is `![](image file name with extension or web link to the image).`_ 
 `![](nature.png)`
-
-_To add image, the syntax is **![](image file name with extension or web link to the image).**_ 
-
 ![](nature.png)
  
 
