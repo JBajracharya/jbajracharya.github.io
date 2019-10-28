@@ -22,3 +22,6 @@ you have done to improve the things that went wrong.*
 - *`"No pain, no gain"`, remember this motivational phrase. To achieve the goal, you have to keep 
 working on it even when it is exteremely difficult and challenging.*
 
+
+###Learning Journals:
+- [Markdown] (learning-markdown.md)
