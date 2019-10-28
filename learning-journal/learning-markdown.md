@@ -7,6 +7,7 @@ can do with Markdown. To use it on the file it needs to have extension .md or .m
 ## Examples:
 
 *Two stars `**text**` at the beginning and at the end to make the text bold.*
+
 `**This is a bold text.**`
 **This is a bold text.**
 
@@ -22,6 +23,7 @@ can do with Markdown. To use it on the file it needs to have extension .md or .m
  ###### The smallest heading
  
  _To add image, the syntax is `![](image file name with extension or web link to the image).`_ 
+
 `![](nature.png)`
 ![](nature.png)
  
