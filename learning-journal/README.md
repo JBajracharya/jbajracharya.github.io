@@ -24,4 +24,4 @@ working on it even when it is exteremely difficult and challenging.*
 
 
 ### Learning Journals:
-- [*Markdown*] (learning-markdown.md)
+- [*Markdown*](learning-markdown.md)
