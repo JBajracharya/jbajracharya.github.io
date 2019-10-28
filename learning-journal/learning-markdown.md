@@ -42,7 +42,7 @@ _**To add image, the syntax is `![](web link to the image source).`**_
 
 `![](https://github.com/JBajracharya/jbajracharya.github.io/blob/master/learning-journal/nature.png)`
 
-![](https://github.com/JBajracharya/jbajracharya.github.io/blob/master/learning-journal/nature.png)
+![](nature.png)
  
 _**For more information on markdown, you can follow this link [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)**_
 
