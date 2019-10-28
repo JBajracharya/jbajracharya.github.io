@@ -13,7 +13,7 @@ _**Two stars `**text**` at the beginning and at the end to make the text bold.**
 **This is a bold text.**
  
  
-_**Create unorder list by preceding one or more lines with `-` or `*`**_
+_**Create unordered list by preceding one or more lines with `-` or `*`**_
 
 ```
 - Apple
@@ -25,7 +25,7 @@ _**Create unorder list by preceding one or more lines with `-` or `*`**_
 - Banana
 
 
-_** Create order list by preceding each line with a number.**_
+_**Create ordered list by preceding each line with a number.**_
 
 ```
 1. Apple
@@ -35,6 +35,7 @@ _** Create order list by preceding each line with a number.**_
 1. Apple
 2. Orange
 3. Banana
+
 
 
 _**To add image, the syntax is `![](web link to the image source).`**_ 
