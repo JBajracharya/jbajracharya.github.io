@@ -23,5 +23,5 @@ you have done to improve the things that went wrong.*
 working on it even when it is exteremely difficult and challenging.*
 
 
-###Learning Journals:
-- [Markdown] (learning-markdown.md)
+### Learning Journals:
+- [*Markdown*] (learning-markdown.md)
