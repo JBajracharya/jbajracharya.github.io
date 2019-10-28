@@ -26,7 +26,7 @@ _**Hastags **#** at the beginning of the text to create headings. Add more than 
 _**To add image, the syntax is `![](image file name with extension or web link to the image).`**_ 
 
 `![](nature.png)`
-![](nature.png)
+![](https://github.com/JBajracharya/jbajracharya.github.io/blob/master/learning-journal/nature.png)
  
 
 
