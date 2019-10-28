@@ -11,23 +11,37 @@ _**Two stars `**text**` at the beginning and at the end to make the text bold.**
 `**This is a bold text.**`
 
 **This is a bold text.**
-
-_**Hastags **#** at the beginning of the text to create headings. Add more than one hastags to increase the size of heading**_
-
-```
-# The largest heading
-## The second largest heading
-###### The smallest heading
-```
-# The largest heading
-## The second largest heading
-###### The smallest heading
  
-_**To add image, the syntax is `![](image file name with extension or web link to the image).`**_ 
+ 
+_**Create unorder list by preceding one or more lines with `-` or `*`**_
 
-`![](nature.png)`
+```
+- Apple
+- Orange 
+- Banana
+```
+- Apple
+- Orange
+- Banana
+
+
+_** Create order list by preceding each line with a number.**_
+
+```
+1. Apple
+2. Orange
+3. Banana
+```
+1. Apple
+2. Orange
+3. Banana
+
+
+_**To add image, the syntax is `![](web link to the image source).`**_ 
+
+`![](https://github.com/JBajracharya/jbajracharya.github.io/blob/master/learning-journal/nature.png)`
 ![](https://github.com/JBajracharya/jbajracharya.github.io/blob/master/learning-journal/nature.png)
  
-
+_**For more information on markdown, you can follow this link [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)**_
 
 
