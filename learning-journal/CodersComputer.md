@@ -2,7 +2,7 @@
 
 Text editor is a software in which you write and manage text/code, especially to build an application or an web site. It is an important tool for 
 a developer to build a program and choosing a right text editor tool increases your productivity. There are several text editors out in the 
-market with different features availables in them. Some of the popular third party text editos are: Notepad++, Text Wrangler, BB Edit, Visual Studio Code, Atom,
+market with different features available in them. Some of the popular third party text editors are: Notepad++, Text Wrangler, BB Edit, Visual Studio Code, Atom,
 Brackets, and Sublime Text. It may be a good idea to try out more than one text editor and find out which one best 
 meets your need. Some of the features to look into a text editor are as follows:
 
@@ -27,7 +27,7 @@ Ctrl + K	                Clear the line after the cursor
 . (Single Period)	        Current directory
 .. (Double Period)	        Parent directory
 ~ (Tilde)               	Home directory
-ls	                        Display the name of files and subdirectories in the directory
+ls	                        Display the name of files and sub-directories in the directory
 ls -C	                        Force multi-column output of the listing
 ls -a	                        List all entries including those with .(period) and ..(double period)
 ```
@@ -36,4 +36,4 @@ ls -a	                        List all entries including those with .(period) an
 + [The Command Line](https://ryanstutorials.net/linuxtutorial/commandline.php)
 + [Basic Navigation](https://ryanstutorials.net/linuxtutorial/navigation.php)
 + [About Files](https://ryanstutorials.net/linuxtutorial/aboutfiles.php)
-+ [Command CheatSheet](https://www.makeuseof.com/tag/mac-terminal-commands-cheat-sheet/)
++ [Command Cheat Sheet](https://www.makeuseof.com/tag/mac-terminal-commands-cheat-sheet/)
