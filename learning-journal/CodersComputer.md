@@ -17,19 +17,20 @@ A command line or terminal is a text based interface to the system. You enter a 
 to a command that is entered in the terminal. Using a terminal is a much faster way of executing the process than using GUI and you can 
 execute multiple task within one terminal window. 
 
-Some basic commands:
-
+#### Some basic commands:
+```
 Ctrl + A	                Go to the beginning of the line you're currently typing on
 Ctrl + E	                Go to the end of the line you're currently typing on
 Ctrl + U	                Clear the line before the cursor
 Ctrl + K	                Clear the line after the cursor
 / (Forward Slash)	        Top level directory
 . (Single Period)	        Current directory
-.. (Double Period)	      Parent directory
+.. (Double Period)	        Parent directory
 ~ (Tilde)               	Home directory
-ls	                      Display the name of files and subdirectories in the directory
-ls -C	                    Force multi-column output of the listing
-ls -a	                    List all entries including those with .(period) and ..(double period)
+ls	                        Display the name of files and subdirectories in the directory
+ls -C	                        Force multi-column output of the listing
+ls -a	                        List all entries including those with .(period) and ..(double period)
+```
 
 #### References to learning material
 + [The Command Line](https://ryanstutorials.net/linuxtutorial/commandline.php)
