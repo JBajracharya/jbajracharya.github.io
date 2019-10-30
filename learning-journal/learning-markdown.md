@@ -1,3 +1,5 @@
+[Back to Home](README.md)
+
 ## What is Markdown?
 
 *Markdown is a github syntax for changing the style and appearance of the text on the the webpage. It is a simple and easy way
@@ -46,4 +48,6 @@ _**To add image, the syntax is `![alt text](web link to the image source).`**_
  
 _**For more information on markdown, you can follow this link [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)**_
 
+
+[Back to Home](README.md)
 
