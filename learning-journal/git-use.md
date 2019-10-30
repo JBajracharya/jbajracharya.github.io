@@ -1,4 +1,4 @@
-[Back to home](Readme.md)
+[Back to home](README.md)
 ## Version Control
 
 Version control is a system that records the changes on the file everytime it is changed and allows to revisit every changed files as 
@@ -21,5 +21,5 @@ minimizes the risk of losing any data.
 **Reference to learning material:** [Git tutorial](https://blog.udemy.com/git-tutorial-a-comprehensive-guide/)
 
 
-[Back to home](Readme.md)
+[Back to home](README.md)
 
