@@ -1,3 +1,5 @@
+[Back to Home](README.md)
+
 ## Text editor
 
 Text editor is a software in which you write and manage text/code, especially to build an application or an web site. It is an important tool for 
@@ -37,3 +39,7 @@ ls -a	                        List all entries including those with .(period) an
 + [Basic Navigation](https://ryanstutorials.net/linuxtutorial/navigation.php)
 + [About Files](https://ryanstutorials.net/linuxtutorial/aboutfiles.php)
 + [Command Cheat Sheet](https://www.makeuseof.com/tag/mac-terminal-commands-cheat-sheet/)
+
+
+[Back to Home](README.md)
+
