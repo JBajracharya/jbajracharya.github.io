@@ -1,3 +1,5 @@
+[Back to home](README.md)
+
 ## Process and Design a website
 
 ### Who is the site for?
@@ -74,3 +76,5 @@ Adding class atrribute to group similar elements
 Inline elements to add with the line of text
 
 `<a>, <b>, <em>, and <img>`
+
+[Back to home](README.md)
