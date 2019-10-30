@@ -4,7 +4,7 @@
 
 ### Who is the site for?
 
-When creating a website, one should begin with asking series of questions on who is the traget audience for the website that is getting built. It is very important to know the target audience so that it meets audience expectation and provide the service the audience is looking for. Some questions that can be asked are:
+When creating a website, one should begin with asking series of questions on who is the target audience for the website that is getting built. It is very important to know the target audience so that it meets audience expectation and provide the service the audience is looking for. Some questions that can be asked are:
 
 #### Targeting individual 
 
@@ -69,7 +69,7 @@ Adding unique id attribute to each element
 
 `<p id="zone1"></p>`
 
-Adding class atrribute to group similar elements
+Adding class attribute to group similar elements
 
 `<p class="important"></p>`
 
