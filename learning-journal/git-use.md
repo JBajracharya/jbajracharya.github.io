@@ -1,15 +1,15 @@
 [Back to home](README.md)
 ## Version Control
 
-Version control is a system that records the changes on the file everytime it is changed and allows to revisit every changed files as 
-necessary. With this ability, it allows one to change back to any of the previous version file, track modifications, modifiy individual 
+Version control is a system that records the changes on the file every time it is changed and allows to revisit every changed files as 
+necessary. With this ability, it allows one to change back to any of the previous version file, track modifications, modify individual 
 version and compare the changes between different version. 
 
 Version control evolved from local version control in which the changes to files are store in one database on the local hard disk, to 
 centralized version control in which file versions are stored in single server and accessed by various clients through that server and 
 now to a distributed version control(DVCS) which solved the issues with previous version control systems. DVCS allows client to create 
 mirror repository which creates a backup and these backup can be placed on the server to replace any lost information. Since it allows
-multiple mirrored repository, it increases the flexibility in colloboration and various simultaneous workflows. 
+multiple mirrored repository, it increases the flexibility in collaboration and various simultaneous workflows. 
 
 ## What is git?
 
