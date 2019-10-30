@@ -10,3 +10,4 @@ Hello, my name is Jitendra Bajracharya. I'm a military veteran, served 6 and a h
 - [Markdown](learning-markdown.md)
 - [Coder's Computer](CodersComputer.md)
 - [Git and Version Control](git-use.md)
+- [Structure web pages with HTML](web-page-html.md)
