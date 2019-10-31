@@ -31,24 +31,24 @@ else {
 document.write('<h3>' + greeting + '</h3>'); 
 ```
 
-**Some rules in javscript**
+### Some rules in javscript
 
-- Each line of code is a statement and ends with semicolon.
+- **Each line of code is a statement and ends with semicolon.**
 
 `var today= new Date();`
 
-- Curly braces indicates the start and end of the code block.
+- **Curly braces indicates the start and end of the code block.**
 
 ```
 else {
     greeting = 'Welcome! ';
 }
 ```
-- Javascript is case sensitive.
+- **Javascript is case sensitive.**
 
 `hourNow is not equal to HOURNOW or HourNow`
 
-- Comment a code with `/*---*/` for a block of comments or `//` for single line comment.
+- **Comment a code with `/*---*/` for a block of comments or `//` for single line comment.**
 
 `/* Th i s script displays a greeting to
 the user based upon the current time.
