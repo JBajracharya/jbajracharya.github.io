@@ -31,7 +31,7 @@ else {
 document.write('<h3>' + greeting + '</h3>'); 
 ```
 
-### Some rules in javscript
+### Some rules in javascript
 
 - **Each line of code is a statement and ends with semicolon.**
 
