@@ -13,3 +13,4 @@ Hello, my name is Jitendra Bajracharya. I'm a military veteran, served 6 and a h
 5. [Structure with HTML](web-page-html.md)
 6. [Design with CSS](design-CSS.md)
 7. [Dynamics with JavaScript](javascript.md) 
+8. [Understanding Computer](computer-logics.md)
