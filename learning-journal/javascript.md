@@ -76,5 +76,4 @@ quantity = 5;
 Here quantity is variable name and 5 is the variable value.
 
 ```
-
 [Back to Home](README.md)
