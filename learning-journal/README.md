@@ -6,8 +6,9 @@ Hello, my name is Jitendra Bajracharya. I'm a military veteran, served 6 and a h
 
 ### Table of Contents:
 
-- [Growth Mindset](growth-mindset.md)
-- [Markdown](learning-markdown.md)
-- [Coder's Computer](CodersComputer.md)
-- [Git and Version Control](git-use.md)
-- [Structure web pages with HTML](web-page-html.md)
+1. [Growth Mindset](growth-mindset.md)
+2. [Markdown](learning-markdown.md)
+3. [Coder's Computer](CodersComputer.md)
+4. [Git and Version Control](git-use.md)
+5. [Structure web pages with HTML](web-page-html.md)
+6. [Design web pages with CSS](design-CSS.md)
