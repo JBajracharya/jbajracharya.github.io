@@ -8,16 +8,16 @@
 
 `example: rgb(100, 80, 120)`
 
-**Hex codes:** Six-digit codes that represent the amount of red, green and blue preceded by a **#** symbol. In the example below, 66 hexadecimal code represents 102 red numeric value, cd represents 205 green numeric value and aa represents 170 numeric value
+**Hex codes:** Six-digit codes that represent the amount of red, green and blue preceded by a **#** symbol. In the example below, '66' hexadecimal code represents 102 red numeric value, 'cd' represents 205 green numeric value and 'aa' represents 170 numeric value
 
 `example: #66cdaa`
 
-**Color Names:** There are 147 predefined color names that are recognized by browser. This method is used less because of limited color pallete and harder to remember color names.
+**Color Names:** There are 147 predefined color names that are recognized by browser. This method is used less because of limited color palette and harder to remember color names.
 
 `example: DarkCyan`
 
 #### Opacity
-CSS 3 allows to specify opacity within a selected color. The opacity value range from 0.0 to 1.0. In the example, letter a represents opacity and it's value is set to 0.4 which is 40% opacity
+CSS 3 allows to specify opacity within a selected color. The opacity value range from 0.0 to 1.0. In the example below, letter 'a' represents opacity and it's value is set to 0.4 which is 40% opacity.
 
 `example: rgba(100, 80, 55, 0.4)`
 
