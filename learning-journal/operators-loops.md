@@ -10,7 +10,7 @@
 Compares two value to see if they are the same. It ignores value type.
 
 ```
-"Hello" == "Goodbye" returs false
+"Hello" == "Goodbye" returns false
 "hello" == "hello" returns true
 '5' == 5 returns true although they are
 different types
@@ -35,7 +35,8 @@ Compares two values to check if both data type and value are the same.
 '3' === '3' returns true
 ```
 **Strict not equal to `!==`**
-Compares two values to check if both data type and vaue are not the same.
+
+Compares two values to check if both data type and value are not the same.
 
 ```
 '3' != 3 returns true
@@ -72,7 +73,7 @@ Only one of the expression has to be true to return true.
 
 **Logical not `!`**
 
-This operators taks a single boolean value and inverts it.
+This operators takes a single boolean value and inverts it.
 
 ```
 !(2 < 1) returns true
