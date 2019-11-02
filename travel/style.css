@@ -21,6 +21,15 @@ body {
     font-size: 20px;
 }
 
+#reserve {
+    color: rgb(247, 254, 255);
+    text-emphasis: bold;
+    background-color: rgb(20, 100, 250);
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    transition: 1s;
+    transform: scale(1.01);
+    cursor: pointer;
+}
 .main {
     display: flex;
     width: 90%;
@@ -30,6 +39,14 @@ body {
     border-radius: 5px;
     text-align: center;
     justify-content: center;
+
+}
+
+.main:hover {
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    transition: 1s;
+    transform: scale(1.01);
+    cursor: pointer;
 
 }
 
