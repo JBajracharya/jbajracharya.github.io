@@ -1,0 +1,41 @@
+body {
+    margin: auto 0;
+    font-family: 'Aladin', cursive;
+    background-color: rgb(247, 254, 255);
+    background-size: auto;
+}
+
+#company {
+    padding-left: 20px;
+}
+
+.welcome {
+    text-align: center;
+
+}
+.zone1 {
+    display: flex;
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.main {
+    display: flex;
+    width: 90%;
+    height: 60%;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+li {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
