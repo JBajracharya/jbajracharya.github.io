@@ -5,6 +5,10 @@ body {
     background-size: auto;
 }
 
+#greet {
+    font-size: 2em;
+}
+
 #company {
     padding-left: 20px;
 }
@@ -24,10 +28,15 @@ body {
 #reserve {
     color: rgb(247, 254, 255);
     text-emphasis: bold;
+    padding-left: 10px;
     background-color: rgb(20, 100, 250);
+   
+}
+
+#reserve:hover {
     box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-    transition: 1s;
-    transform: scale(1.01);
+    transition: 0.1s;
+    transform: scale(1.05);
     cursor: pointer;
 }
 .main {
