@@ -1,0 +1,31 @@
+body {
+    background: #f7f7f7;
+    margin: 5em;
+}
+
+#welcome {
+    color: #08acd5;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+h2,h3 {
+    color: #08acd5;
+    font-size: 2em;
+    text-align: center;
+
+}
+
+.profile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+    
+}
+
+p,li {
+    font-size: 1.5em;
+    color: #114255;
+}
