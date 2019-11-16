@@ -1,0 +1,30 @@
+body {
+    background-color: #47abb3;
+}
+
+img {
+    /* display: ; */
+    margin-left: 500;
+    margin-right: auto;
+    width: 50%;
+}
+
+header ul li {
+    display: inline;
+}
+
+#logo {
+    width: 20%;
+    height: auto;
+    border: 3px solid brown ;
+    padding: 1.2em;
+    margin-top: 1.5em;
+    margin-left: 1.5em;
+    background-color: #c1aebf;
+}
+
+#title {
+    margin-left: 600px;
+    font-size: 5em;
+    font-weight: bold;
+}

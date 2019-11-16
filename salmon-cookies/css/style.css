@@ -1,0 +1,22 @@
+body {
+    background-color: #e7cfa3;
+}
+
+h2 {
+    text-align: center;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+td {
+    text-align: center;
+}
+
+#tableContainer {
+    margin-top: 100px;
+    
+}
