@@ -1,33 +1,73 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Home</title>
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/styleHome.css">
-    </head>
-    <body>
-        <header>
-            <ul>
-                <li><img id="logo" src="img/salmon.png" alt=""></li>
-                <li id="title">Salmon Cookies</li>
-            </ul>
-        </header>
-        <main>
-            <img src="salmon.png" alt="">
-        </main>
-        <section>
-            <nav>
-                <ul>
-                    <li><img src="img/chinook.jpg" alt=""></li>
-                    <li><img src="img/cssdinerexercise.jpg" alt=""></li>
-                    <li><img src="img/cutter.jpeg" alt=""></li>
-                    <li><img src="img/fish.jpg" alt=""></li>
-                    <li><img src="img/frosted-cookie.jpg" alt=""></li>
-                    <li><img src="img/shirt.jpg" alt=""></li>
-                
-                </ul>
-            </nav>
-        </section>
 
-    </body>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styleHome.css">
+    <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul id="heading">
+                <li class="heading"><img id="logo" src="img/salmon.png" alt=""></li>
+                <li class="heading" id="title">Salmon Cookies</li>
+            </ul>
+            <ul id="subHeadings">
+                <li class="sub"><a href="">Home</a></li>
+                <li class="sub"><a href="sales.html">Sales</a></li>
+                <li class="sub"><a href="">Locations</a></li>
+                <li class="sub"><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="allSlides">
+        <img class="slides" src="img/chinook.jpg" alt="">
+        <img class="slides" src="img/cssdinerexercise.jpg" alt="">
+        <img class="slides" src="img/cutter.jpeg" alt="">
+        <img class="slides" src="img/fish.jpg" alt="">
+        <img class="slides" src="img/frosted-cookie.jpg" alt="">
+        <img class="slides" src="img/shirt.jpg" alt="">
+
+
+    </main>
+    <section id="locations">
+        <div id="locTitle">Our Store Locations</div>
+        <div>
+            <span>Tokyo</span>
+            <p>13231 Arigato Ln, Tokyo, Japan 98342</p>
+        </div>
+        <div>
+            <span>Seattle</span>
+            <p>14233 Abby Way, Seattle, WA, 98432</p>
+        </div>
+        <div>
+            <span>Dubai</span>
+            <p>14223 Aslam Way, Dubai, 92323</p>
+        </div>
+        <div>
+            <span>Paris</span>
+            <p>14233 Frank Street, Paris, France, 33332</p>
+        </div>
+        <div>
+            <span>Lima</span>
+            <p>112232 local street, Lima, 23232</p>
+        </div>
+        <div id="hours">We are now open 06:00am to 07:00pm 7 days a week at all our locations!!</div>
+    </section>
+
+    <footer>
+        <h2 id="foot">Contact Information</h2>
+        <p>12230 Liberty Ln, Seattle, WA <br>
+        Email @: admin@salmoncookies.com <br>
+        Phone: 253-443-4010
+    </p>
+    </footer>
+</body>
+<script src="script/home.js"></script>
+
 </html>
