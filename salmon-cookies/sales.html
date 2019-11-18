@@ -1,24 +1,44 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title></title> 
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-        <h2>Salmon Cookies</h2>
-        <form id="input-form" action="">
-            <fieldset>
-                <legend>Salmon Cookies</legend>
-                Location: <input type="text" name="location"><br>
-                Minimum Customer: <input type="number" name="minCustomer" required><br>
-                Maximum Customer: <input type="number" name="maxCustomer" required><br>
-                Average Cookies: <input type="number" name="avgCookies" required><br>
-                <!-- <input type="submit" name="submit" value="Submit"> -->
-                <button>submit</button>
-            </fieldset>
-        </form>
-        <div id="tableContainer"></div>
-        <script src="script/app.js"></script>
-    </body>
-    </html>
+
+<head>
+    <title></title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styleHome.css">
+    <link rel="stylesheet" href="css/styleHome.css">
+    <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul id="heading">
+                <li class="heading"><img id="logo" src="img/salmon.png" alt=""></li>
+                <li class="heading" id="title">Salmon Cookies</li>
+            </ul>
+            <ul id="subHeadings">
+                <li class="sub"><a href="index.html">Home</a></li>
+                <li class="sub"><a href="">Sales</a></li>
+                <li class="sub"><a href="index.html">Locations</a></li>
+                <li class="sub"><a href="">Contact</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <form id="input-form" action="">
+        <fieldset>
+            <legend>Salmon Cookies</legend>
+            <label>Location:</label><input type="text" name="location"><br>
+             <label>Minimum Customer:</label><input type="number" name="minCustomer" required><br>
+             <label>Maximum Customer</label><input type="number" name="maxCustomer" required><br>
+            <label>Average Cookies:</label><input type="number" name="avgCookies" required><br>
+            <!-- <input type="submit" name="submit" value="Submit"> -->
+            <input id="button" type="submit" value="Submit">
+        </fieldset>
+    </form>
+    <div id="tableContainer"></div>
+    <script src="script/app.js"></script>
+</body>
+
+</html>
