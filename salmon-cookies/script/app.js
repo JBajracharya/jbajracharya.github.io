@@ -34,6 +34,7 @@ Shop.prototype.getCookiesEachHour = function () {
         var randNumWithinRange = Math.floor(Math.random() * range + this.minCust);
         var salesAnHour = randNumWithinRange * Math.ceil(this.avgCookie);
         this.salesPerHour.push(salesAnHour);
+        this.totalSales += this.salesPerHour;
     }
 }
 
@@ -118,12 +119,12 @@ Shop.prototype.render = function () {
 // add new shop from the user input
 function submitHandler(event) {
     event.preventDefault();
-    var addingNewShop = new Shop(event.target.location.value, parseInt(event.target.minCustomer.value), parseInt(event.target.maxCustomer.value), parseInt(event.target.avgCookies.value), time, []);
+    var addingNewShop = new Shop(event.target.location.value, parseInt(event.target.minCustomer.value), parseInt(event.target.maxCustomer.value), parseInt(event.target.avgCookies.value), time, [], 0);
     allShops.push(addingNewShop);
     footerElement.innerHTML = '';
     addingNewShop.render();
-    getAllShopTotal();
     event.target.reset();
+    getAllShopTotal();
 }
 for (var shop of allShops) {
     shop.getCookiesListAndTotal();
