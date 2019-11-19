@@ -14,15 +14,17 @@ function addElement(tag, container, text) {
 }
 //creating construction object and converting individual object literals to a blueprint object
 function Shop(location, minCust, maxCust, avgCookie, timePeriod, salesPerHour, totalSales) {
+    console.log('########################### inside Shop constructor start');
     this.location = location;
     this.minCust = minCust;
     this.maxCust = maxCust;
     this.avgCookie = avgCookie;
     this.timePeriod = timePeriod;
     this.salesPerHour = salesPerHour;
-    this.getCookiesEachHour();
     this.totalSales = totalSales;
+    this.getCookiesEachHour();
     console.log('total sales', this.totalSales);
+    console.log('########################### inside Shop constructor done');
 }
 
 
@@ -34,8 +36,9 @@ Shop.prototype.getCookiesEachHour = function () {
         var randNumWithinRange = Math.floor(Math.random() * range + this.minCust);
         var salesAnHour = randNumWithinRange * Math.ceil(this.avgCookie);
         this.salesPerHour.push(salesAnHour);
-        this.totalSales += this.salesPerHour;
+        this.totalSales += salesAnHour;
     }
+    console.log('########################### inside Shop getCookiesEachHour done');
 }
 
 //add static sample shops to the object and pushing object to array
@@ -119,7 +122,9 @@ Shop.prototype.render = function () {
 // add new shop from the user input
 function submitHandler(event) {
     event.preventDefault();
+    console.log('########################### calling Shop constructor');
     var addingNewShop = new Shop(event.target.location.value, parseInt(event.target.minCustomer.value), parseInt(event.target.maxCustomer.value), parseInt(event.target.avgCookies.value), time, [], 0);
+    console.log('########################### done with Shop constructor');
     allShops.push(addingNewShop);
     footerElement.innerHTML = '';
     addingNewShop.render();
